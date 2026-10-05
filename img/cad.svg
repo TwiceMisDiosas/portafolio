@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="64" height="64">
+    <defs>
+      <linearGradient id="cadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FF4B2B" />
+        <stop offset="100%" stop-color="#FF416C" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#cadGrad)" d="M64 20a44 44 0 1 0 44 44A44 44 0 0 0 64 20zm0 62a18 18 0 1 1 18-18 18 18 0 0 1-18 18z"/>
+    <path fill="url(#cadGrad)" d="M60 10h8v16h-8zm0 92h8v16h-8zM10 60h16v8H10zm92 0h16v8h-16zM28.7 23.1l5.7-5.7 11.3 11.3-5.7 5.7zm63.6 63.6l5.7-5.7 11.3 11.3-5.7 5.7zM23.1 99.3l5.7 5.7 11.3-11.3-5.7-5.7zm63.6-63.6l5.7 5.7 11.3-11.3-5.7-5.7z"/>
+  </svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="160" height="48">
+    <circle cx="28" cy="30" r="16" fill="#F7B731"/>
+    <path d="M28 8v6M28 46v6M6 30h6M44 30h6M12 14l5 5M39 41l5 5M12 46l5-5M39 19l5-5" stroke="#F7B731" stroke-width="3" stroke-linecap="round"/>
+    <text x="56" y="38" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#FFFFFF" letter-spacing="1">SUNWISE</text>
+  </svg>

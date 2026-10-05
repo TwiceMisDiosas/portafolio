@@ -1,0 +1,45 @@
+
+:root{
+    --primary-color: #fff;
+    --secondary-color : #9d00ff;
+    --third-color : #f718e0;
+}
+
+.visiblo-btn-color{
+    background: var(--secondary-color);
+    box-shadow: var(--third-color) 0px 0px 18px 0px, rgba(255, 255, 255, 0.76) 0px 0px 4px 0px inset;
+    border-color: var(--secondary-color);
+    color: #fff !important;
+}
+
+.visiblo-btn-color span{
+    color: #fff;
+}
+
+.visiblo-btn-arrow:hover::after, .icon-bar a.active, .sidebar a.active{
+    color: var(--third-color);
+}
+
+h1 span.color, h2 span.color, h3 span.color, h4 span.color, h5 span.color, .color, span.color {
+    background-image: linear-gradient(278deg, var(--secondary-color) 0%, var(--third-color) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+i.color {
+    color: var(--third-color) !important;
+    background-image: none !important;
+    -webkit-text-fill-color: initial !important;
+}
+
+.competencia-badge:hover {
+    border-color: var(--third-color);
+    background: rgba(157, 0, 255, 0.22);
+    box-shadow: 0 0 14px rgba(247, 24, 224, 0.35);
+    color: #fff;
+}
+
+.skill-percentage {
+    color: var(--third-color);
+}

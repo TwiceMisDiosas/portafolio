@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="64" height="64">
+    <defs>
+      <linearGradient id="qaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00F2FE" />
+        <stop offset="100%" stop-color="#4FACFE" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#qaGrad)" d="M64 14L20 32v34c0 30 22 56 44 64 22-8 44-34 44-64V32L64 14z"/>
+    <path fill="#0D1B2A" d="M64 22l36 15v29c0 24-17 46-36 53-19-7-36-29-36-53V37l36-15z"/>
+    <path fill="#00F2FE" d="M56 74.4L43.6 62l-5.6 5.6L56 85.6l34-34-5.6-5.6z"/>
+  </svg>
