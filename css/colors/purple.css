@@ -7,7 +7,7 @@
 
 .visiblo-btn-color{
     background: var(--secondary-color);
-    box-shadow: var(--third-color) 0px 0px 18px 0px, rgba(255, 255, 255, 0.76) 0px 0px 4px 0px inset;
+    box-shadow: 0px 0px 18px 0px var(--third-color), inset 0px 0px 4px 0px rgba(255, 255, 255, 0.76);
     border-color: var(--secondary-color);
     color: #fff !important;
 }

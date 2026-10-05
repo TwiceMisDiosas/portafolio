@@ -427,15 +427,26 @@ p.xl{
   } 
 
   .visiblo-btn-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     color: #fff;
     font-size: 14px;
-    font-weight: 400;
-    border-radius: 50px;
-    padding: 10px 65px 13px 25px;
+    font-weight: 500;
+    border-radius: 60px;
+    padding: 0 65px 0 25px;
     border: solid 1px #ffffff34;
     overflow: hidden;
-    height: 45px;
+    height: 48px;
+    min-height: 48px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    line-height: 1;
+    text-decoration: none;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
 }
 
   .visiblo-btn-arrow span {
@@ -509,31 +520,42 @@ p.xl{
 }
 
 .visiblo-btn-color{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   font-size: 14px;
-  border-radius: 50px;
-  padding: 10px 30px;
-  color: #fff;
-  overflow: hidden;
+  font-weight: 500;
   border-radius: 60px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-style: solid;
-  border-top-width: 1px;
-  will-change: auto;
-  border-bottom-width: 1px;
+  padding: 0 32px;
+  color: #fff !important;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+  border: 1px solid var(--secondary-color, #9d00ff);
+  background: var(--secondary-color, #9d00ff);
+  box-shadow: 0px 0px 18px 0px var(--third-color, #f718e0), inset 0px 0px 4px 0px rgba(255, 255, 255, 0.76);
+  height: 48px;
+  min-height: 48px;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
   transition: all ease .3s;
   -webkit-transition: all ease .3s;
   -moz-transition: all ease .3s;
-  -ms-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  height: 45px;
 }
 
-
+.visiblo-btn-color span{
+  color: #fff !important;
+  display: inline-block;
+  line-height: 1;
+}
 
 .visiblo-btn-color:hover{
-  color: #fff;
+  color: #fff !important;
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  box-shadow: 0px 0px 24px 0px var(--third-color, #f718e0), inset 0px 0px 6px 0px rgba(255, 255, 255, 0.9);
 }
 
 .eyebrow-badge{
@@ -609,7 +631,28 @@ p.xl{
 .buttons-holder{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+@media (max-width: 767px){
+  .buttons-holder{
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 14px;
+  }
+  .buttons-holder .visiblo-btn-color,
+  .buttons-holder .visiblo-btn-arrow{
+    width: 100%;
+    max-width: 100%;
+    min-height: 48px;
+    height: 48px;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
 }
 
 section{
